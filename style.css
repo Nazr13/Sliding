@@ -1,0 +1,451 @@
+body {
+    background-color: bisque;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+h1 {
+    text-align: left;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-left: 20px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#phrase {
+    text-align: right;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#topph {
+    padding-bottom: 30px;
+}
+
+table {
+    border: 1px solid black;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+thead tr {
+    background-color: #838383;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+        
+th, td {
+    padding: 14px 18px;
+    border: 1px solid #4c4d5233;
+}
+        
+tbody tr {
+    border-bottom: 1px solid #4c4d5233;
+}
+        
+tbody tr:nth-of-type(even) {
+    background-color: rgba(58, 80, 107, 0.2);
+}
+        
+tbody tr:hover {
+    background-color: #4c4d5233;
+    transition: background-color 0.2s;
+}
+        
+tbody tr:last-of-type {
+    border-bottom: 2px solid #4c4d5233;
+}
+
+h2 {
+    margin-top: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+}
+
+h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+}
+
+h4 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#mult {
+    border: 1px solid rgb(97, 97, 97);
+    background-color: rgb(201, 216, 178);
+    border-radius: 5px;
+    padding: 10px;
+    padding-top: 1px;
+    line-height: 28px;
+}
+
+.level-section {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 25px;
+    background-color: rgb(201, 216, 178);
+    border-radius: 8px;
+    border-left: 5px solid rgb(116, 124, 103);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.level-title {
+    font-size: 1.8rem;
+    color: #532b21;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(116, 124, 103);
+    font-weight: bold;
+}
+
+/* Отдельные умения */
+.ability {
+    margin-bottom: 35px;
+    padding: 20px;
+    background-color: rgb(201, 216, 178);
+    border-radius: 6px;
+    border: 1px solid #474747;
+    transition: box-shadow 0.3s ease;
+}
+
+.ability:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.ability:last-child {
+    margin-bottom: 0;
+}
+
+.ability-title {
+    font-size: 1.5rem;
+    color: #532b21;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.ability-level {
+    color: #0c0c0c;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #2c2c2c;
+}
+
+.ability-description {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #050505;
+}
+
+.ability-description p {
+    margin-bottom: 15px;
+}
+
+.ability-description p:last-child {
+    margin-bottom: 0;
+}
+
+/* Списки особенностей */
+.ability-features {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.ability-features li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+    color: #111111;
+    position: relative;
+    padding-left: 5px;
+}
+
+.ability-features li:last-child {
+    margin-bottom: 0;
+}
+
+.ability-features li strong {
+    color: #3d1a14;
+}
+
+/* Под-умения (для Боевого стиля и т.д.) */
+.sub-ability {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: rgb(201, 216, 178);
+    border-radius: 5px;
+    border-left: 3px solid rgb(116, 124, 103);
+    border-top: 1px solid rgb(116, 124, 103);
+    border-bottom: 1px solid rgb(116, 124, 103);
+    border-right: 1px solid rgb(116, 124, 103);
+}
+
+.sub-ability h4 {
+    color: #532b21;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.sub-ability p {
+    margin-bottom: 0;
+    color: #2c2c2c;
+}
+
+/* Особые стили для key элементов */
+strong {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+li {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+em {
+    color: #7f8c8d;
+}
+
+#arhsk {
+    margin: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.archetypes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Отдельный архетип */
+.archetype {
+    background: rgb(176, 199, 141);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(79, 87, 90, 0.1);
+}
+
+.archetype:hover {
+    border-color: rgba(72, 75, 77, 0.3);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Скрываем чекбокс */
+.archetype-checkbox {
+    display: none;
+}
+
+/* Заголовок архетипа (кликабельный) */
+.archetype-header {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 30px;
+    cursor: pointer;
+    background: linear-gradient(135deg, rgba(55, 55, 56, 0.2), rgba(76, 201, 240, 0.1));
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.archetype-header:hover {
+    background: linear-gradient(135deg, rgb(201, 216, 178), rgb(133, 151, 106));
+}
+
+/* Название архетипа */
+.archetype-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #41221a;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Цитата архетипа */
+.archetype-quote {
+    font-style: italic;
+    color: #272727;
+    font-size: 1.1rem;
+    display: block;
+    line-height: 1.5;
+}
+
+/* Стрелка для открытия/закрытия */
+.archetype-toggle {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    color: #124615;
+    transition: transform 0.3s ease;
+}
+
+/* Контент архетипа (скрыт по умолчанию) */
+.archetype-content {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 30px;
+    background: rgb(201, 216, 178);
+    transition: all 0.5s ease;
+}
+
+/* Когда чекбокс отмечен (архетип открыт) */
+.archetype-checkbox:checked + .archetype-header .archetype-toggle {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.archetype-checkbox:checked ~ .archetype-content {
+    max-height: 12000px;
+    padding: 30px;
+}
+
+/* Описание архетипа */
+.archetype-description {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #292929;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(32, 34, 34, 0.2);
+}
+
+/* Умения архетипа */
+.archetype-ability {
+    background: rgb(190, 207, 163);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border-left: 3px solid rgb(116, 124, 103);
+    transition: all 0.2s ease;
+}
+
+.archetype-ability:hover {
+    background: rgb(135, 146, 118);
+    border-left-color: #74b67f;
+}
+
+.archetype-ability:last-child {
+    margin-bottom: 0;
+}
+
+.archetype-ability h4 {
+    color: #41221a;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.archetype-ability p {
+    color: #222222;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.archetype-ability p:last-child {
+    margin-bottom: 0;
+}
+
+.archetype-ability ul {
+    margin: 15px 0 15px 20px;
+    color: #080808;
+}
+
+.archetype-ability li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.archetype-ability li:last-child {
+    margin-bottom: 0;
+}
+
+#li {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #111111;
+}
+
+.spell-table-container {
+    margin: 25px 0;
+    padding: 20px;
+    background: rgb(163, 177, 141);
+    border-radius: 8px;
+    border: 1px solid rgba(49, 49, 49, 0.2);
+}
+
+.spell-table-container h5 {
+    color: #313131;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.spell-conversion-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto 15px;
+    font-size: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.spell-conversion-table th {
+    background: linear-gradient(135deg, rgb(174, 190, 150), rgb(108, 117, 94));
+    color: white;
+    padding: 12px 15px;
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid rgba(31, 31, 31, 0.3);
+}
+
+.spell-conversion-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid rgba(62, 63, 63, 0.2);
+    color: #c5d0ff;
+}
+
+.spell-conversion-table tbody tr:nth-child(odd) {
+    background: rgb(135, 146, 118);
+}
+
+.spell-conversion-table tbody tr:nth-child(even) {
+    background: rgb(135, 146, 118);
+}
+
+.spell-conversion-table tbody tr:hover {
+    background: rgb(135, 146, 118);
+}
+
+.table-note {
+    font-size: 0.9rem;
+    color: #a9b7d6;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(76, 201, 240, 0.1);
+}
